@@ -7,7 +7,7 @@ import discord
 # =========================
 # ENV (Render)
 # =========================
-DISCORD_TOKEN = os.getenv(""MTQ3Mjk2MDM5NDk0MjM0OTMxMg.GMDLus.aAqvQI9YvWFGdHTcmyOkWrXVLEeAlBCHax7f70 "").strip()
+DISCORD_TOKEN = os.getenv("MTQ3Mjk2MDM5NDk0MjM0OTMxMg.GMDLus.aAqvQI9YvWFGdHTcmyOkWrXVLEeAlBCHax7f70", "").strip()
 API_SECRET = os.getenv("Modmail", "").strip()
 PORT = int(os.getenv("PORT", "8080"))
 
